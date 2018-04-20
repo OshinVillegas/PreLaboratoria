@@ -1,0 +1,143 @@
+body{
+
+	margin: 0;
+	padding: 0;
+}
+
+.backg{
+  position: absolute;
+}
+
+.title{
+
+	width: 50%;
+	margin: auto;
+	margin-top: 150px;
+	height: 400px;
+	font-size: 40px;
+	background-attachment: contain;
+  position: center;
+}
+
+h1{
+	color: #d4af37;
+	font-weight: bold;
+	font-family: serif;
+	text-align: center;
+}
+
+.title h1:hover{
+	color: #D2691E;
+
+}
+.welcome{
+
+	background: rgba(0,0,0,.8);
+	width: 40%;
+	margin: auto;
+	margin-top: 60px;
+  border-radius: 3px;
+
+}
+
+
+.welcome p{
+
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	background-attachment: contain;
+}
+
+
+.juego{
+
+	background: #800000;
+	border-radius: 8px;
+	width: 40%;
+	margin: auto;
+	margin-top: 30px;
+  background-attachment: fixed;
+}
+
+
+.juego p{
+
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 3px;
+	height: 60px;
+
+
+
+}
+
+.hola{
+
+	background: red;
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+li .design{
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+li .design2{
+  margin-right: 450px;
+  margin-top: 50px;
+
+}
+
+ul li{
+  display: inline;
+  padding-right: 30px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul li .design a:hover{
+  color: #008000;
+}
+
+ul li .design2 a:hover{
+  color: #FF0000;
+}
+
+.design{
+  background: black;
+  width: 8%;
+  height: 40px;
+  border-radius: 4px solid #fdd700;
+}
+
+.design2{
+  background: black;
+  width: 8%;
+  height: 40px;
+  border-radius: 4px solid #fdd700;
+}
+
+#particles-js{
+  background: url(../images/future.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  height: 1100px;
+}
+
+@font-face {
+	font-family: serif;
+	src: url(../fonts/IBMPlexSerif-Regular.ttf);
+}
