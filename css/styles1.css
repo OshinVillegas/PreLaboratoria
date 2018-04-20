@@ -19,6 +19,7 @@ body{
   position: center;
 }
 
+
 h1{
 	color: #d4af37;
 	font-weight: bold;
@@ -26,10 +27,13 @@ h1{
 	text-align: center;
 }
 
+
 .title h1:hover{
 	color: #D2691E;
 
 }
+
+
 .welcome{
 
 	background: rgba(0,0,0,.8);
@@ -37,7 +41,6 @@ h1{
 	margin: auto;
 	margin-top: 60px;
   border-radius: 3px;
-
 }
 
 
@@ -47,6 +50,8 @@ h1{
 	font-size: 30px;
 	text-align: center;
 	background-attachment: contain;
+	font-family: noto;
+
 }
 
 
@@ -69,36 +74,37 @@ h1{
 	font-weight: bold;
 	padding-top: 3px;
 	height: 60px;
-
-
-
 }
+
 
 .hola{
 
 	background: red;
 }
 
+
 ul{
   list-style-type: none;
-
 }
+
 
 li .design{
   margin-left: 480px;
   margin-top: 50px;
 }
 
+
 li .design2{
   margin-right: 450px;
   margin-top: 50px;
-
 }
+
 
 ul li{
   display: inline;
   padding-right: 30px;
 }
+
 
 ul li a{
   text-decoration: none;
@@ -107,13 +113,16 @@ ul li a{
   text-align: center;
 }
 
+
 ul li .design a:hover{
   color: #008000;
 }
 
+
 ul li .design2 a:hover{
   color: #FF0000;
 }
+
 
 .design{
   background: black;
@@ -122,12 +131,14 @@ ul li .design2 a:hover{
   border-radius: 4px solid #fdd700;
 }
 
+
 .design2{
   background: black;
   width: 8%;
   height: 40px;
   border-radius: 4px solid #fdd700;
 }
+
 
 #particles-js{
   background: url(../images/future.jpg);
@@ -137,7 +148,10 @@ ul li .design2 a:hover{
   height: 1100px;
 }
 
+
 @font-face {
 	font-family: serif;
 	src: url(../fonts/IBMPlexSerif-Regular.ttf);
+	font-family: noto;
+	src: url(../fonts/NotoSerif-Regular.ttf);
 }

@@ -14,14 +14,15 @@
       document.getElementById('respuesta').innerHTML += "<p class='respuestaCorreta'>Respuesta Correcta</p>";
       document.getElementById('respuesta').innerHTML += "<p>Gano " + puntos + " puntos</p>";
       document.getElementById('respuesta').innerHTML += "<p>Total de " + puntuacionTotal + " puntos</p>";
-
-      document.getElementById('pregunta1').style.visibility = 'hidden';
-      document.getElementById('pregunta2').style.visibility = 'visible';
-      document.getElementById('pregunta3').style.visibility = 'hidden';
     }
     else{
-      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta</p>";
+      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta></p> <p>Total de " + puntuacionTotal + " puntos</p>";
+
     }
+
+    document.getElementById('pregunta1').style.visibility = 'hidden';
+    document.getElementById('pregunta2').style.visibility = 'visible';
+    document.getElementById('pregunta3').style.visibility = 'hidden';
 
   }
 
@@ -39,14 +40,14 @@
       document.getElementById('respuesta').innerHTML += "<p>Gano " + puntos + " puntos</p>";
       document.getElementById('respuesta').innerHTML += "<p>Total de " + puntuacionTotal + " puntos</p>";
 
-      document.getElementById('pregunta1').style.visibility = 'hidden';
-      document.getElementById('pregunta2').style.visibility = 'hidden';
-      document.getElementById('pregunta3').style.visibility = 'visible';
     }
     else{
-      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta</p>";
+      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta</p> <p>Total de " + puntuacionTotal + " puntos</p>";
     }
 
+    document.getElementById('pregunta1').style.visibility = 'hidden';
+    document.getElementById('pregunta2').style.visibility = 'hidden';
+    document.getElementById('pregunta3').style.visibility = 'visible';
   }
 
   function validarRespuesta3(boton){
@@ -64,12 +65,12 @@
       document.getElementById('respuesta').innerHTML += "<p> Gano " + puntos + " puntos</p>";
       document.getElementById('respuesta').innerHTML += "<p>Total de " + puntuacionTotal + " puntos</p>";
 
-      document.getElementById('pregunta1').style.visibility = 'hidden';
-      document.getElementById('pregunta2').style.visibility = 'hidden';
-      document.getElementById('pregunta3').style.visibility = 'hidden';
     }
     else{
-      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta</p>";
+      document.getElementById('respuesta').innerHTML += "<p class='respuestaIncorrecta'>Respuesta Incorrecta</p> <p>Total de " + puntuacionTotal + " puntos</p>";
     }
 
+    document.getElementById('pregunta1').style.visibility = 'hidden';
+    document.getElementById('pregunta2').style.visibility = 'hidden';
+    document.getElementById('pregunta3').style.visibility = 'hidden';
   }
